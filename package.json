@@ -1,7 +1,7 @@
 {
   "name": "edge-node",
-  "version": "0.0.0",
-  "description": "TypeScript + Sequelize + MySQL + Express API Server",
+  "version": "0.0.1",
+  "description": "TypeScript + Sequelize + sqlite3 + Express API Server",
   "author": "",
   "license": "ISC",
   "scripts": {
@@ -60,6 +60,8 @@
     "cross-env": "^7.0.3",
     "eslint": "^8.20.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "jest": "^28.1.1",
